@@ -3,17 +3,17 @@
 # thing is NOT to "complete labs," the important thing is to learn the skills you need
 # in order to complete the rest of this course and be ready for the next course!
 
-def introduction(greeting)
-  puts '#{greeting}, meredith!'
+def introduction(name)
+  puts 'hello #{name}'
 end
 
-introduction("hello")
+introduction("meredith")
 
-def introduction_with_language(greeting, name)
-  puts '#{greeting} to you, #{name}' 
+def introduction_with_language(name, language)
+  puts '#{name} is the best #{language} developer in all the land' 
 end
 
-introduction_with_language("hola","meredith")
+introduction_with_language("meredith","meredith")
 
 def introduction_with_language_optional(greeting, name = 'Meredith')
   puts '#{greeting} go you, #{name}'
