@@ -13,7 +13,13 @@ def introd(greeting, name)
   puts '#{greeting} to you, #{name}' 
 end
 
-in
+introd("hola","meredith")
+
+def opt_intro(greeting, name = 'Meredith')
+  puts '#{greeting} go you, #{name}'
+end
+
+opt_intro('hi')
 
 
 
