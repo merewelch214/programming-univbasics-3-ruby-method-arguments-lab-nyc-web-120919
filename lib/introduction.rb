@@ -13,10 +13,10 @@ def introduction_with_language(name, language)
   puts '#{name} is the best #{language} developer in all the land' 
 end
 
-introduction_with_language("meredith","meredith")
+introduction_with_language("meredith","javascript")
 
-def introduction_with_language_optional(greeting, name = 'Meredith')
-  puts '#{greeting} go you, #{name}'
+def introduction_with_language_optional(name, language = 'ruby')
+  puts '#{name} is the best #{language} developer in all the land'
 end
 
 introduction_with_language_optional('hi')
