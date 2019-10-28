@@ -19,7 +19,7 @@ def introduction_with_language_optional(name, language = 'ruby')
   puts '#{name} is the best #{language} developer in all the land'
 end
 
-introduction_with_language_optional('hi')
+introduction_with_language_optional('mary')
 
 
 
