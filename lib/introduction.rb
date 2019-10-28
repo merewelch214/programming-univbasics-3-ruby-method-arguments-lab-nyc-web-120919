@@ -13,13 +13,13 @@ def introduction_with_language(greeting, name)
   puts '#{greeting} to you, #{name}' 
 end
 
-introd("hola","meredith")
+introduction_with_language("hola","meredith")
 
 def introduction_with_language_optional(greeting, name = 'Meredith')
   puts '#{greeting} go you, #{name}'
 end
 
-opt_intro('hi')
+introduction_with_language_optional('hi')
 
 
 
