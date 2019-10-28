@@ -15,7 +15,7 @@ end
 
 introd("hola","meredith")
 
-def opt_intro(greeting, name = 'Meredith')
+def introduction_with_language_optional(greeting, name = 'Meredith')
   puts '#{greeting} go you, #{name}'
 end
 
