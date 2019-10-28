@@ -4,22 +4,18 @@
 # in order to complete the rest of this course and be ready for the next course!
 
 def introduction(name)
-  puts 'hello #{name}'
+  puts 'Hi, my name is #{name}.'
 end
 
-introduction("meredith")
 
 def introduction_with_language(name, language)
-  puts '#{name} is the best #{language} developer in all the land' 
+  puts 'Hi, my name is #{name} and I am learning to program in #{language}' 
 end
 
-introduction_with_language("meredith","javascript")
 
 def introduction_with_language_optional(name, language = 'ruby')
-  puts '#{name} is the best #{language} developer in all the land'
+  puts 'Hi, my name is #{name} and I am learning to program in #{language}'
 end
-
-introduction_with_language_optional('mary')
 
 
 
