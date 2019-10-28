@@ -3,13 +3,13 @@
 # thing is NOT to "complete labs," the important thing is to learn the skills you need
 # in order to complete the rest of this course and be ready for the next course!
 
-def intro(greeting)
+def introduction(greeting)
   puts '#{greeting}, meredith!'
 end
 
-intro("hello")
+introduction("hello")
 
-def introd(greeting, name)
+def introduction_with_language(greeting, name)
   puts '#{greeting} to you, #{name}' 
 end
 
